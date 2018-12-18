@@ -176,6 +176,8 @@ func (a *Agent) gatherCandidatesReflective(urls []*URL) {
 				set = append(set, c)
 				a.localCandidates[networkType] = set
 
+				fmt.Printf("listening to %s on %s\n", network, laddr)
+
 				go a.recvLoop(c)
 
 			default:
