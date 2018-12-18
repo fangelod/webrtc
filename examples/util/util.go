@@ -14,7 +14,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/pions/webrtc"
+	"github.com/fangelod/webrtc"
 )
 
 // Allows compressing offer/answer to bypass terminal input limits.

@@ -1,6 +1,6 @@
 package codecs
 
-import "github.com/pions/webrtc/pkg/rtp"
+import "github.com/fangelod/webrtc/pkg/rtp"
 
 // OpusPayloader payloads Opus packets
 type OpusPayloader struct{}

@@ -6,7 +6,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/pions/webrtc/pkg/ice"
+	"github.com/fangelod/webrtc/pkg/ice"
 )
 
 // ICECandidateUnmarshal takes a candidate strings and returns a ice.Candidate or nil if it fails to parse

@@ -5,7 +5,7 @@ import (
 	"net/url"
 	"strconv"
 
-	"github.com/pions/webrtc/pkg/rtcerr"
+	"github.com/fangelod/webrtc/pkg/rtcerr"
 )
 
 // TODO: Migrate address parsing to STUN/TURN

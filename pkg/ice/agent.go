@@ -9,8 +9,8 @@ import (
 	"sync"
 	"time"
 
+	"github.com/fangelod/webrtc/internal/util"
 	"github.com/pions/pkg/stun"
-	"github.com/pions/webrtc/internal/util"
 	"github.com/pkg/errors"
 )
 

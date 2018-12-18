@@ -3,7 +3,7 @@ package ice
 import (
 	"testing"
 
-	"github.com/pions/webrtc/pkg/rtcerr"
+	"github.com/fangelod/webrtc/pkg/rtcerr"
 	"github.com/pkg/errors"
 	"github.com/stretchr/testify/assert"
 )

@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/pions/webrtc/pkg/datachannel"
+	"github.com/fangelod/webrtc/pkg/datachannel"
 	"github.com/stretchr/testify/assert"
 )
 

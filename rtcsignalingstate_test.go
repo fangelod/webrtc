@@ -3,7 +3,7 @@ package webrtc
 import (
 	"testing"
 
-	"github.com/pions/webrtc/pkg/rtcerr"
+	"github.com/fangelod/webrtc/pkg/rtcerr"
 
 	"github.com/stretchr/testify/assert"
 )

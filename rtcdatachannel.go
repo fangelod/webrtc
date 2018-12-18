@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/pions/webrtc/internal/datachannel"
-	sugar "github.com/pions/webrtc/pkg/datachannel"
+	"github.com/fangelod/webrtc/internal/datachannel"
+	sugar "github.com/fangelod/webrtc/pkg/datachannel"
 	"github.com/pkg/errors"
 )
 

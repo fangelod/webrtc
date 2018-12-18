@@ -4,11 +4,11 @@ import (
 	"fmt"
 	"log"
 
+	"github.com/fangelod/webrtc"
+	"github.com/fangelod/webrtc/examples/util"
+	"github.com/fangelod/webrtc/examples/util/gstreamer-src"
+	"github.com/fangelod/webrtc/pkg/ice"
 	janus "github.com/notedit/janus-go"
-	"github.com/pions/webrtc"
-	"github.com/pions/webrtc/examples/util"
-	"github.com/pions/webrtc/examples/util/gstreamer-src"
-	"github.com/pions/webrtc/pkg/ice"
 )
 
 func watchHandle(handle *janus.Handle) {

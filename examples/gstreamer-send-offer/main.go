@@ -3,10 +3,10 @@ package main
 import (
 	"fmt"
 
-	"github.com/pions/webrtc"
-	"github.com/pions/webrtc/examples/util"
-	"github.com/pions/webrtc/examples/util/gstreamer-src"
-	"github.com/pions/webrtc/pkg/ice"
+	"github.com/fangelod/webrtc"
+	"github.com/fangelod/webrtc/examples/util"
+	"github.com/fangelod/webrtc/examples/util/gstreamer-src"
+	"github.com/fangelod/webrtc/pkg/ice"
 )
 
 func main() {
