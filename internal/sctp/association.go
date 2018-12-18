@@ -192,6 +192,7 @@ func (a *Association) readLoop() {
 
 // HandleInbound parses incoming raw packets
 func (a *Association) handleInbound(raw []byte) error {
+	fmt.Printf("sctp.handleInbound: %v", raw)
 	p := &packet{}
 	if err := p.unmarshal(raw); err != nil {
 		return errors.Wrap(err, "Unable to parse SCTP packet")
